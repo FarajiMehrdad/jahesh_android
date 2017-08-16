@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="chambray">#3D5895</color>
+
+    <color name="loblolly">#B7B7B7</color>
+    <color name="dark_jungle_green">#1C1C1E</color>
+    <color name="vida_loca">#609123</color>
+</resources>

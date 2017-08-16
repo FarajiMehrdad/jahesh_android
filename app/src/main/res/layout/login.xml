@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@android:color/black"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <Button
+        android:id="@+id/login_facebook_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Log in with Facebook"
+        android:background="@color/chambray"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:padding="16dp"
+        android:layout_marginTop="32dp"
+
+        />
+
+    <EditText
+        android:id="@+id/userNameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+        android:textColorHint="@color/loblolly"
+        android:textSize="20sp"
+        android:textColor="@android:color/white"
+        android:background="@color/dark_jungle_green"
+        android:layout_marginTop="32dp"
+        android:drawableLeft="@drawable/ic_person_black_24dp"
+        android:drawablePadding="8dp"
+        android:padding="16dp"
+        />
+    <EditText
+        android:id="@+id/passwordEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:textColor="@android:color/white"
+        android:textColorHint="@color/loblolly"
+        android:textSize="20sp"
+        android:background="@color/dark_jungle_green"
+        android:drawableLeft="@drawable/ic_lock_black_24dp"
+        android:drawablePadding="8dp"
+        android:padding="16dp"
+        />
+    <Button
+        android:id="@+id/login_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LOG IN"
+        android:textColor="@android:color/white"
+        android:padding="16dp"
+        android:background="@color/vida_loca"
+        />
+    
+    <Button
+        android:id="@+id/forget_button"
+        android:textColor="@android:color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forget your password"
+        android:gravity="center"
+        android:background="@android:color/transparent"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp"
+        />
+
+    
+
+
+</LinearLayout>
