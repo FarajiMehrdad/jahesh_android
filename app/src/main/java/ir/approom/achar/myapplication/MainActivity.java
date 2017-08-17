@@ -1,6 +1,7 @@
 package ir.approom.achar.myapplication;
 
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -30,6 +31,9 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 loginButton.setBackgroundColor(ContextCompat.getColor(getApplicationContext(), R.color.colorPrimary));
+                Intent intent = new Intent(getApplicationContext(),InstagramActivity.class);
+                startActivity(intent);
+
             }
         });
 

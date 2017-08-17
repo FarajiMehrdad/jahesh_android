@@ -29,6 +29,7 @@
           />
 
       <ImageButton
+          android:id="@+id/moreMenu"
           android:layout_width="wrap_content"
           android:layout_height="wrap_content"
           android:src="@drawable/ic_more_vert_black_24dp"
@@ -57,6 +58,7 @@
         android:layout_height="wrap_content">
 
         <ImageButton
+            android:id="@+id/likeButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/ic_favorite_border_black_24dp"
